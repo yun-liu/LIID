@@ -43,9 +43,13 @@ If you are using the code/model/data provided here in a publication, please cons
 
 4. [Download the segment-based object proposals](https://drive.google.com/file/d/1qFIlbkc8S9ejmy1mKVGqEzj5m9FDs2wa/view?usp=sharing), and extract the data to `$VOC2012_ROOT/proposals/` folder.
 
-5. Change the path of `cut/run.sh` to your own project root.
+5. [Download the compiled binary file](https://drive.google.com/file/d/1DMlSwQ1BuZWU2Kp2tUi4Wd5yRtycyEyF/view?usp=sharing), and put the binary files into `$ROOT_DIR/cut/multiway_cut/`.
 
-6. Run `python3 gen_proposals.py`. Remember to change the `voc-root` to your own `$VOC2012_ROOT`. The proposals with labels will be generated in the `$ROOT_DIR/proposals` folder.
+6. Change the path of `cut/run.sh` to your own project root.
+
+7. run `./make.sh` to build CUDA dependences.
+
+8. Run `python3 gen_proposals.py`. Remember to change the `voc-root` to your own `$VOC2012_ROOT`. The proposals with labels will be generated in the `$ROOT_DIR/proposals` folder.
 
 ### Pretrained Models and data
 
