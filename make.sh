@@ -12,4 +12,7 @@ cd libs/nms
 cd $basepath
 cd libs/roi_pooling
 ./make.sh
+cd $basepath
+cd libs/distance
+make
 cd $xxxxx
