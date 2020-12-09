@@ -1,6 +1,4 @@
-## LIID
-
-[Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation](http://mftp.mmcheng.net/Papers/21PAMI_InsImgDatasetWSIS.pdf)
+## [Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation](http://mftp.mmcheng.net/Papers/21PAMI_InsImgDatasetWSIS.pdf)
 
 This paper has been accepted and early accessed in IEEE TPAMI 2020.
 
