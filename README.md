@@ -56,7 +56,9 @@ The pretrained model of MIL framework can be downloaded [here](https://drive.goo
 
 Pascal VOC 2012 dataset files can be downloaded [here](http://host.robots.ox.ac.uk/pascal/VOC/) or other mirror websites.
 
-S$^4$Net proposals used for testing can be downloaded [here](https://drive.google.com/file/d/1qFIlbkc8S9ejmy1mKVGqEzj5m9FDs2wa/view?usp=sharing).
+S4Net proposals used for testing can be downloaded [here](https://drive.google.com/file/d/1qFIlbkc8S9ejmy1mKVGqEzj5m9FDs2wa/view?usp=sharing).
+
+The 24K simple ImageNet data (including S4Net proposals) can be downloaded [here](https://drive.google.com/file/d/10sr11wtI4LMctGIjvcAwIoAb5da7bhyt/view?usp=sharing).
 
 MCG proposals can be downloaded [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/#datasets).
 
@@ -78,4 +80,4 @@ Since IBM CPLEX is hard to install and the configuration of it is somewhat diffi
 
 ### Acknowledgment
 
-This code is based on IBM CPLEX. Thanks for IBM CPLEX academic version.
+This code is based on IBM CPLEX. Thanks for the IBM CPLEX academic version.
