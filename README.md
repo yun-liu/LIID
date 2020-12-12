@@ -13,8 +13,8 @@ Weakly supervised semantic instance segmentation with only image-level supervisi
 If you are using the code/model/data provided here in a publication, please consider citing:
 
     @article{liu2020leveraging,
-      author={Yun Liu and Yu-Huan Wu and Peisong Wen and Yujun Shi and Yu Qiu and Ming-Ming Cheng},
       title={Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation},
+      author={Yun Liu and Yu-Huan Wu and Peisong Wen and Yujun Shi and Yu Qiu and Ming-Ming Cheng},
       journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
       year={2020},
       doi={10.1109/TPAMI.2020.3023152},
