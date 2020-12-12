@@ -16,10 +16,7 @@ If you are using the code/model/data provided here in a publication, please cons
       author={Yun Liu and Yu-Huan Wu and Peisong Wen and Yujun Shi and Yu Qiu and Ming-Ming Cheng},
       title={Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation},
       journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-      volume={},
-      number={},
-      pages={1-1},
-      year={2021},
+      year={2020},
       doi={10.1109/TPAMI.2020.3023152},
       publisher={IEEE}
     }
