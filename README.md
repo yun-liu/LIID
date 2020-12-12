@@ -76,7 +76,7 @@ Results of semantic segmentation trained with 10K images, 10K images + 24K simpl
 
 ### Other Notes
 
-Since it is difficult to install and configure IBM CPLEX, for convenience, we provide the compiled binary file which can run directly. If you desire to get the complete source code for solving the multi-way cut and ensure that there is no commercial use of it, please contact Yu-Huan Wu (wuyuhuan(at)mail(dot)nankai(dot)edu(dot)cn).
+Since it is difficult to install and configure IBM CPLEX, for convenience, we provide the compiled binary file which can run directly. If you desire to get the complete source code for solving the multi-way cut and ensure that there is no commercial use of it, please contact Yu-Huan Wu (wuyuhuan(at) mail (dot)nankai(dot)edu(dot)cn).
 
 ### Acknowledgment
 
