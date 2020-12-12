@@ -36,15 +36,15 @@ If you are using the code/model/data provided here in a publication, please cons
     git clone https://github.com/yun-liu/LIID.git
     ```
 
-2. [Download the pretrained model of MIL framework](https://drive.google.com/file/d/1KjoBn3ngzZw5aJPAiBaE3ZKh8xAn59kd/view?usp=sharing), and put them into `$ROOT_DIR` folder.
+2. [Download the pretrained model of the MIL framework](https://drive.google.com/file/d/1KjoBn3ngzZw5aJPAiBaE3ZKh8xAn59kd/view?usp=sharing), and put them into `$ROOT_DIR` folder.
 
-3. [Download Pascal VOC2012 dataset](http://host.robots.ox.ac.uk/pascal/VOC/). Extract the dataset files into `$VOC2012_ROOT` folder.
+3. [Download the Pascal VOC2012 dataset](http://host.robots.ox.ac.uk/pascal/VOC/). Extract the dataset files into `$VOC2012_ROOT` folder.
 
-4. [Download the segment-based object proposals](https://drive.google.com/file/d/1qFIlbkc8S9ejmy1mKVGqEzj5m9FDs2wa/view?usp=sharing), and extract the data to `$VOC2012_ROOT/proposals/` folder.
+4. [Download the segment-based object proposals](https://drive.google.com/file/d/1qFIlbkc8S9ejmy1mKVGqEzj5m9FDs2wa/view?usp=sharing), and extract the data into `$VOC2012_ROOT/proposals/` folder.
 
 5. [Download the compiled binary files](https://drive.google.com/file/d/1DMlSwQ1BuZWU2Kp2tUi4Wd5yRtycyEyF/view?usp=sharing), and put the binary files into `$ROOT_DIR/cut/multiway_cut/`.
 
-6. Change the path of `cut/run.sh` to your own project root.
+6. Change the path in `cut/run.sh` to your own project root.
 
 7. run `./make.sh` to build CUDA dependences.
 
@@ -52,9 +52,9 @@ If you are using the code/model/data provided here in a publication, please cons
 
 ### Pretrained Models and data
 
-The pretrained model of MIL framework can be downloaded [here](https://drive.google.com/file/d/1KjoBn3ngzZw5aJPAiBaE3ZKh8xAn59kd/view?usp=sharing).
+The pretrained model of the MIL framework can be downloaded [here](https://drive.google.com/file/d/1KjoBn3ngzZw5aJPAiBaE3ZKh8xAn59kd/view?usp=sharing).
 
-Pascal VOC 2012 dataset files can be downloaded [here](http://host.robots.ox.ac.uk/pascal/VOC/) or other mirror websites.
+The Pascal VOC2012 dataset can be downloaded [here](http://host.robots.ox.ac.uk/pascal/VOC/) or other mirror websites.
 
 S4Net proposals used for testing can be downloaded [here](https://drive.google.com/file/d/1qFIlbkc8S9ejmy1mKVGqEzj5m9FDs2wa/view?usp=sharing).
 
@@ -66,18 +66,18 @@ MCG proposals can be downloaded [here](https://www2.eecs.berkeley.edu/Research/P
 
 For instance segmentation, you can use official or popular public Mask R-CNN projects like [mmdetecion](https://github.com/open-mmlab/mmdetection), [Detectron2](https://github.com/facebookresearch/detectron2), [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark), or other popular open-source projects.
 
-For semantic segmentation, you can use official Caffe implementation of [deeplab](http://liangchiehchen.com/projects/DeepLab.html),  third party PyTorch implementation [here](https://github.com/kazuto1011/deeplab-pytorch), or third party Tensorflow Implementation [here](https://github.com/DrSleep/tensorflow-deeplab-resnet).
+For semantic segmentation, you can use official Caffe implementation of [deeplab](http://liangchiehchen.com/projects/DeepLab.html),  third-party PyTorch implementation [here](https://github.com/kazuto1011/deeplab-pytorch), or third-party Tensorflow Implementation [here](https://github.com/DrSleep/tensorflow-deeplab-resnet).
 
 ### Precomputed Results
 
-Results of instance segmentation on Pascal VOC2012 *segmentation val* split can be downloaded [here](https://drive.google.com/file/d/10s5hVEknVgyWu1A63GO5gBA1Sb1wzynl/view?usp=sharing).
+Results of instance segmentation on the Pascal VOC2012 *segmentation val* split can be downloaded [here](https://drive.google.com/file/d/10s5hVEknVgyWu1A63GO5gBA1Sb1wzynl/view?usp=sharing).
 
-Results of semantic segmentation trained with 10K images, 10K images+24K simple imagenet images, 10K images (Res2Net-101) on Pascal VOC2012 *segmentation val* split can be downloaded [here](https://drive.google.com/file/d/1ysV06qPWnhaMKN7EHkaXzaxoyiukvApg/view?usp=sharing).
+Results of semantic segmentation trained with 10K images, 10K images + 24K simple ImageNet images, 10K images (Res2Net-101) on the Pascal VOC2012 *segmentation val* split can be downloaded [here](https://drive.google.com/file/d/1ysV06qPWnhaMKN7EHkaXzaxoyiukvApg/view?usp=sharing).
 
 ### Other Notes
 
-Since IBM CPLEX is hard to install and the configuration of it is somewhat difficult. By default and for convenience, we provide the compiled binary file which can directly run. If you are desired to get the complete source code of solving the multi-way cut and ensures no commercial use of it, please contact Yu-Huan Wu (wuyuhuan (at) mail.nankai.edu(dot)cn).
+Since it is difficult to install and configure IBM CPLEX, for convenience, we provide the compiled binary file which can run directly. If you desire to get the complete source code for solving the multi-way cut and ensure that there is no commercial use of it, please contact Yu-Huan Wu (wuyuhuan(at)mail(dot)nankai(dot)edu(dot)cn).
 
 ### Acknowledgment
 
-This code is based on IBM CPLEX. Thanks for the IBM CPLEX academic version.
+This code is based on IBM CPLEX. Thanks to the IBM CPLEX academic version.
