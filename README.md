@@ -1,7 +1,5 @@
 ## [Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation](https://ieeexplore.ieee.org/document/9193980)
 
-This paper has been accepted and early accessed in IEEE TPAMI 2020.
-
 Code contact e-mail: Yu-Huan Wu (wuyuhuan (at) mail(dot)nankai(dot)edu(dot)cn)
 
 ### Introduction
@@ -18,6 +16,9 @@ If you are using the code/model/data provided here in a publication, please cons
       title={Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation},
       author={Yun Liu and Yu-Huan Wu and Peisong Wen and Yujun Shi and Yu Qiu and Ming-Ming Cheng},
       journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+      volume={44},
+      number={3},
+      pages={1415--1428},
       year={2020},
       doi={10.1109/TPAMI.2020.3023152},
       publisher={IEEE}
